@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+
+}
+
+#content{
+
+}
+
+#content .bai4_1 .parent>li{
+    list-style-type: upper-roman;
+}
+
+#content .bai4_1 .child>li{
+    list-style-type: decimal;
+}

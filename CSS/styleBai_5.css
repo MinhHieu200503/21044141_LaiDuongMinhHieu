@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+p{
+    padding: 12px 0;
+}
+
+h1{
+    padding: 12px 0;
+}
+
+#bai_b,
+#bai_a{
+    box-shadow: 0 0 20px rgba(000, 000,000, 0.6);
+    padding: 12px;
+    min-height: 400px;
+    width: 800px;
+    /* border: 2px solid black; */
+    margin-bottom: 100px;
+    margin: 25% 0 0 20%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+}
+
+#bai_b{
+    
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+#content{
+    width: 1000px;
+    background-color: orange;
+    margin: auto;
+    margin-top: 25%;
+    transform: translateY(-50%);
+    box-shadow: 0 0 20px;
+    padding: 12px;
+}
+
+#content .title{
+    padding: 24px;
+}
+
+#content .left{
+    
+}
+
+#content .center{
+    display: block;
+    text-align: center;
+}
+
+#content .right{
+    display: block;
+    width: 100%;
+    text-align: right;
+}
