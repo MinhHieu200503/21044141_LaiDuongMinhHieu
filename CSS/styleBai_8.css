@@ -1,0 +1,10 @@
+area{
+    border: 19px solid red;
+    position: absolute;
+    display: block;  
+}
+
+.A{
+    position: absolute;
+    top:90px;
+}
