@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h5{
+    margin-top: 12px;
+}
+
+.color{
+    width: 32px;
+    height: 20px;
+    background-color: blue;
+    margin: auto;
+    margin-top: 4px;
+}
+
+.container_color{
+    width: 36px;
+    height: 28px;
+    background-color: gray;
+    border: 1px solid black;
+}
+
+body{
+    width: 200px;
+    box-shadow: 0 0 10px black;
+    min-height: 400px;
+    margin: auto;
+    margin-top: 25%;
+    transform: translateY(-50%);
+}
+
+button{
+    display: block;
+    margin-top: 12px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}

@@ -1,0 +1,8 @@
+body{
+    width: 800px;
+    min-height: 150px;
+    box-shadow: 0 0 10px gray;
+    margin: auto;
+    margin-top: 25%;
+    transform: translateY(-50%);
+}

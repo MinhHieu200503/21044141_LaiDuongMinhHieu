@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 8px;
+    width: 200px;
+    box-shadow: 0 0 10px black;
+    margin: auto;
+    margin-top: 25%;
+    transform: translateY(-50%);
+}
+
+button{
+    margin-top: 12px;
+    display: block;
+}
+
+h5{
+    margin-bottom: 12px;
+}

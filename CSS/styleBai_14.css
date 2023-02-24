@@ -1,0 +1,24 @@
+body{
+    width: 450px;
+    box-shadow: 0 0 10px black;
+    margin: auto;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+fieldset{
+    width: 400px;
+}
+
+.check{
+    display: inline-block;
+    
+}
+
+p{
+    display: inline-block;
+    width: 200px;
+}
