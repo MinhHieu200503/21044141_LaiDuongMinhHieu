@@ -67,3 +67,80 @@
 .width{
     width: 0px;
 }
+
+#box1 .cell td{
+    padding: 12px 8px;
+
+}
+
+#bai_b>table{
+    display: inline-block;
+    background-color: orange;
+}
+
+#bai_b>table td{
+    color: red;
+}
+
+#bai_b>table tr:first-child td{
+    color: black;
+}
+
+
+#box1,
+#box2{
+    display: inline-block;
+    width: 250px;
+    height: 150px;
+    box-shadow: 0 0 10px black ;
+}
+
+#box1,
+#box2,
+#bai_b>table{
+    float: left;
+    margin-left: 24px;
+}
+
+#bai_c table,
+#bai_c td{
+    border: 1px black solid;
+}
+
+#bai_c table{
+    margin: auto;
+    background-color: violet;
+    text-align: center;
+}
+
+#bai_c table tr:first-child{
+    background-color: RGB(225 52 239);
+    
+}
+
+#bai_c table tr td:first-child{
+    background-color: aqua;
+    padding: 4px;
+}
+
+#bai_c table tr:first-child td:first-child{
+    background-color: violet;
+}
+
+#bai_c table tr:first-child td{
+    text-decoration: underline;
+}
+
+#bai_c{
+    margin: auto;
+    background-color: orange;
+    width: 400px;
+    height: 200px;
+    margin-top: 24px;
+}
+
+#bai_c caption{
+    color: RGB(225 52 239);
+    font-size: 14px;
+    padding-top: 4px;
+}

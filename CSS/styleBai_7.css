@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#box1 img{
+    width: 50px;
+    vertical-align: bottom;
+}
+#box2 img{
+    width: 50px;
+    vertical-align: middle;
+}
+#box3 img{
+    width: 50px;
+    vertical-align: top;
+}
+#box4 img{
+    width: 50px;
+    float: right;
+}
+#box5 img{
+    width: 50px;
+    float: left;
+}
+
+#box1,
+#box2,
+#box3,
+#box4,
+#box5{
+    border-bottom: 2px solid #000;
+    margin: 8px 12px;
+   
+}
+
+body{
+    width: 800px;
+    margin: auto;
+    box-shadow:  0 0 10px black;
+    margin-top: 25%;
+    transform: translateY(-50%);
+}
+
+
