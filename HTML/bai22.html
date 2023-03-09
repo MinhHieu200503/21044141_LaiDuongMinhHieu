@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../JS/bai22.css">
+    <script src="https://kit.fontawesome.com/b64565a5da.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="container">
+        <!-- header -->
+        <div id="header">
+            <!-- logo -->
+            <div class="header_img">
+                <img src="../IMG/logo.png" alt="">
+            </div>
+            <!-- other item -->
+            <div class="header_item">
+                <div class="header_view">
+                    <h3 class="view">views:</h3>
+                    <a class = "view_Option" href="">desktop</a>
+                    <a class = "view_Option" href="">mobile</a>
+                    <a class = "view_Option" href="">print</a>
+                </div>
+                <!-- find header -->
+                <div class="find">
+                    <select name="option" id="select_Option">
+                        <script>
+                            for(var i = 1;i<13;i++){
+                                document.writeln("<option>"+"option  "+i+"</option>");
+                            }
+                        </script>
+                    </select>
+                    
+                    <button class="btn-go">GO</button>
+                </div>
+                <div class="nav">
+                    <ul class="list_Nav">
+                        <li>standards</li>
+                        <li>participate</li>
+                        <li>membership</li>
+                        <li>about W3C</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
