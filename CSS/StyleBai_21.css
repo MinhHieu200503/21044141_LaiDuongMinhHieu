@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+:root{
+    --heghit_Header:42px;
+    --main_color:rgb(4,170,109);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container{
+    width: 900px;
+    height: 90vh;
+    box-shadow: 0 0 10px black;
+
+}
+
+#header{
+    text-align: center;
+}
+#header .W3,
+#header .com
+{
+    display: inline-block;
+    font-size: 42px;
+    
+}
+
+#header .W3{
+
+}
+
+#header .com{
+    color: rgb(4,170,109);
+}
+
+#header .subTitle{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 24px;
+}
+
+#nav{
+    background-color: #ccc;
+    height: var(--heghit_Header);
+}
+
+
+#nav .header_Icon {
+    text-align: center;
+    width: 60px;
+    display: inline-block;
+    line-height: var(--heghit_Header);
+    margin-left: -4px;
+}
+
+#nav .home{
+    margin: 0px;
+}
+
+#nav .list_Nav{
+    display: inline-block;
+    list-style: none;
+}
+
+#nav .list_Nav>li{
+    text-align: center;
+    margin-left:-4px ;
+    display: inline-block;
+    min-width: 120px;
+    height: var(--heghit_Header);
+    line-height: var(--heghit_Header);
+}
+
+#nav>div:hover,
+#nav .list_Nav>li:hover{
+    background-color: var(--main_color);
+    cursor: pointer;
+}
+
+#list{
+    display: inline-block;
+}
+
+#list .list_Session{
+    list-style: none;
+    width: 150px;
+    background-color: #ccc;
+    
+}
+
+#list .list_Session>li{
+    display:block;
+    height: 25px;
+    line-height: 25px;
+    text-align: left;
+    padding-left: 8px;
+}
+
+#list .list_Session:first-child>li:first-child{
+    font-size: 22px;
+    height: 80px;
+    line-height: 80px;
+}
+
+#list .list_Session:first-child>li:nth-child(2){
+    text-transform: uppercase;
+    font-weight: 800 ;
+}
+
+#list .list_Session:first-child>li:hover{
+    background-color: var(--main_color);
+    cursor: pointer;
+}
+
+#list .list_Session:first-child>li:first-child:hover{
+    background-color: #ccc;
+    cursor:auto;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: calc(100% - 150px);
+    padding: 12px;
+}
+
+.content_Banner{
+    width: 100%;
+}
+
+.content_Banner img{
+    width: 100%;
+}
+
+.content_Title{
+    margin-top: 24px;
+    font-size: 32px;
+}
+
+.content_nav{
+    overflow: auto;
+    margin-top: 24px;
+}
+
+.content_nav .previous a,
+.content_nav .next a{
+    color: var(--main_color);
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.content_nav .previous{
+    float: left;
+}
+
+.content_nav .next{
+    float: right;
+}
+
+.previous{
+
+}
+
+.next{
+
+}
+
+.content_session{
+    margin-top: 24px;
+    padding-top: 12px;
+}
+
+.content_session img{
+    /* display: inline-block; */
+    width: 21%;
+    float: left;
+    padding-right: 16px;
+}
+
+.content_session p{
+    overflow:auto;
+    font-size: 20px;
+    line-height: 1.6;
+    /* display: inline; */
+}
+
+.content_lesson{
+    margin-top: 32px;
+    border-top:1px solid #000 ;
+
+}
+
+.titlen_lesson{
+    font: 2rem sans-serif ;
+    padding-top: 12px;
+}
+
+.content_lesson p{
+    font-size: 20px;
+    padding-top: 12px;
+}
